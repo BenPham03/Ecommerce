@@ -1,0 +1,70 @@
+main {
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    padding: 50px 0;
+  }
+  
+  #h {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #frm,
+  .banking_info {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  
+  #frm > div > label,
+  .banking_info div > label {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  #frm > div > input,
+  .banking_info div > input {
+    display: block;
+    width: 100%;
+    outline: 0;
+    border: 1px solid lightgray;
+    padding: 6px;
+    margin-top: 6px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+  
+  #frm > div > input:focus,
+  .banking_info input:focus {
+    border-color: lightgreen;
+  }
+  
+  /* div p {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  } */
+  
+  #btn {
+    width: max-content;
+    margin: 30px auto;
+    display: block;
+    background-color: black;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 10px 30px;
+    cursor: pointer;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  

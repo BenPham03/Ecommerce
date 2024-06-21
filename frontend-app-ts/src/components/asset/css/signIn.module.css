@@ -1,0 +1,65 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+#container{
+    width: 400px;
+    min-height: 400px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+#container p{
+    text-align: center;
+    font-size: 30px;
+    /* display: block; */
+    padding-top: 30px;
+    font-weight: bold;
+    margin-bottom:20px ;
+    
+}
+#container input{
+    width: 350px;
+    height: 50px;
+    margin:  10px 25px;
+    border: 1px solid rgba(19, 19, 209,0.5);
+    border-radius: 10px;
+    padding: 0 25px;
+}
+#container a{
+    float: right;
+    margin-right: 40px;
+    font-size: 16px;
+    margin-top: 8px;
+}
+#container button{
+    /* float: right; */
+    margin: 40px 150px;
+    /* text-align: center; */
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: #F94C2F;
+    font-weight: bold;
+    color: #fff;
+    border: 0px solid #fff;
+}
+#toHome img{
+    height: 150px;
+    text-align: center;
+    margin-top: 20px;
+}
+#input{
+    position: relative;
+}
+small {
+    color: #e74c3c; 
+    position: absolute;
+    top: 90%;
+    left: 30px;
+    visibility: hidden;
+    font-size: 12px; 
+}
